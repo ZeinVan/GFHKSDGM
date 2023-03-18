@@ -6,13 +6,15 @@
 #include <iostream>
 using namespace std;
 
-unsigned cal(unsigned a, unsigned b){
+unsigned cal(unsigned short int a, unsigned short int b){
     return a / b;
 }
 
 int main(){
-    unsigned a,b;
+    unsigned short int a,b;
     cin>>a>>b;
+    if(b==0)
+        return -1;
     cout<<cal(a, b);
     return 0;
 }
