@@ -1,1 +1,6 @@
-
+program a1;
+var a,b,c:integer;
+begin
+    if(a<b)
+    i:=2;
+end.
