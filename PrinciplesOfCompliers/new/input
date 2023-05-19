@@ -1,0 +1,5 @@
+program wan;
+var i:integer;
+begin
+    i:=n**2;
+end

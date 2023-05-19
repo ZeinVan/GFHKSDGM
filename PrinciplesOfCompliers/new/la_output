@@ -1,0 +1,21 @@
+# Lexical Analysis Result
+# Generate Time: Tue May 16 16:11:00 2023
+# Program File Name: input
+# Language Set: PL/0
+
+program RESERVED 1 8
+wan ID 1 12
+; EOP 1 13
+var RESERVED 2 4
+i ID 2 6
+: AOP 2 7
+integer RESERVED 2 14
+; EOP 2 15
+begin RESERVED 3 6
+i ID 4 6
+:= AOP 4 8
+n ID 4 9
+** OOP 4 11
+2 INT 4 12
+; EOP 4 13
+end RESERVED 5 4
